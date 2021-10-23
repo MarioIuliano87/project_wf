@@ -97,12 +97,13 @@ I want to rename some columns to make the dataset more readable (the modified da
 ```python 
 # Rename sk columns #
 data = df.rename(columns={'dteday': 'date',
-                   'yr': 'year_sk',
-                   'mnth': 'month_int',
-                   'hr': 'hour',
-                   'weathersit': 'weather_sk',
-                   'hum': 'humidity'})
-
+                          'yr': 'year_sk',
+                          'mnth': 'month_int',
+                          'hr': 'hour',
+                          'weathersit': 'weather_sk',
+                          'hum': 'humidity',
+                          'season': 'season_sk',
+                          'cnt': 'totals'})
 
 # Create Dim Tables and Merge #
 dim_season = pd.DataFrame({'season_sk': [1, 2, 3, 4],
@@ -125,9 +126,10 @@ data['year'] = data.year_sk.map({1: '2011',
 bike_share = data[['instant', 'date', 'season', 'hour',
                    'year', 'month_int', 'holiday', 'weekday',
                    'workingday', 'weather', 'temp', 'atemp',
-                   'humidity', 'windspeed', 'casual', 'registered', 'cnt']]
+                   'humidity', 'windspeed', 'casual', 'registered', 'totals']]
      
-```python 
+```
+
 **Which Time Range do we have?** 
 
 ```python 
@@ -136,7 +138,7 @@ min_d = df.dteday.min()
 max_d = df.dteday.max()
 print('Min date: ',  min_d)
 print('Max date: ',  max_d)
-```python 
+``` 
 
 <img width="260" alt="Screenshot 2021-10-23 at 12 02 07" src="https://user-images.githubusercontent.com/73912794/138551824-39b8b26e-d94c-4a13-a039-e60b9b284c2b.png">
 
