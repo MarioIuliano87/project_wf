@@ -119,8 +119,8 @@ dim_weather = pd.DataFrame({'weather_sk': [1, 2, 3, 4],
 data = data.merge(dim_season, how='inner', on='season_sk').merge(dim_weather, how='inner', on='weather_sk')
 
 # Converting Year
-data['year'] = data.year_sk.map({1: '2011',
-                                 0: '2012'})
+data['year'] = data.year_sk.map({0: '2011',
+                                 1: '2012'})
 
 # Dataset for analysis
 bike_share = data[['instant', 'date', 'season', 'hour',
