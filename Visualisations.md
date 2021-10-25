@@ -18,7 +18,7 @@
 * Registered rides are more dictated by working hours during the week. There are 2 spikes occurring during the commuting time. 
 * This shows that registered customer use the service for daily commuting and to move through the city. 
 
-* Casual rides increases during the working time (10am - 17 am) and they remain pretty stable before decreasing. The trend is less spiky compared to registered. 
+* Casual rides increases during the working time (10am - 5pm) and they remain relatively stable before decreasing. The trend is less spiky compared to registered. 
 * Casuals might be tourists or leisure customers. 
 
 ![image](https://user-images.githubusercontent.com/73912794/138667508-0f9b2943-dee7-44de-b190-7bee702e9497.png)
