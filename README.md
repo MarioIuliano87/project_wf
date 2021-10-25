@@ -249,4 +249,4 @@ wf = bike_share.to_csv(path + 'bike_sharing_wf.csv',
                        index=False)
 ```
 
-(Here)[https://github.com/MarioIuliano87/project_wf/blob/main/Visualisations.md] you can find the final analysis for the stakeholders.
+[Here](https://github.com/MarioIuliano87/project_wf/blob/main/Visualisations.md) you can find the final analysis for the stakeholders.
