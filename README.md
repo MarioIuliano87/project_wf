@@ -221,3 +221,31 @@ ax[1].set_title('Hourly Weekends Rides')
 * Casuals seem to be occasional drivers using the service more for leisure.
 
 ![hourly_trend_by_weekdays](https://user-images.githubusercontent.com/73912794/138658685-e0873935-b02c-4e9b-b558-adc97bac084b.png)
+
+
+To make the analysis more readable for stakeholders, I will create two dimensional tables to be joined on season and weather. The final output file will be used in Tableau for visaulisations. 
+
+```python 
+# Create Dim Tables to merge #
+dim_season = pd.DataFrame({'season_sk': [1, 2, 3, 4],
+                           'season': ['winter', 'spring', 'summer', 'fall']})
+
+dim_weather = pd.DataFrame({'weather_sk': [1, 2, 3, 4],
+                            'weather': ['Few clouds, Partly cloudy, Partly cloudy',
+                                        'Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist',
+                                        'Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds',
+                                        'Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog']})
+
+# Join the 3 tables on sk
+data = df.merge(dim_season, how='inner', on='season_sk').merge(dim_weather, how='inner', on='weather_sk')
+
+bike_share = data[
+    ['instant', 'date', 'year', 'year_season', 'month_int', 'hour', 'holiday', 'weekday', 'workingday', 'season',
+     'weather', 'temp', 'atemp', 'humidity', 'windspeed', 'casual', 'registered', 'totals']]
+
+# Export cleaned data set as csv file and plot it into Tableau
+# Converting into CSV and Save locally - This is only to be read into SQL
+wf = bike_share.to_csv(path + 'bike_sharing_wf.csv',
+                       header=True,
+                       index=False)
+```
