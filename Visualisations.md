@@ -26,12 +26,18 @@
 
 # Proposal to increase revenue # 
 
-Attract new casual riders
+The key finding is that there are different behaviorus and needs for both target groups (registered, casual). 
+While registered are more bounded to daily commuting and their rides are dicted by working hours, the casuals have a more flexible and stable usage of the service showing that leisure or daily plans (going to supermarket, gym etc.) influence their behaviour. 
+
+Therefore we can plan to come up with two new product strategies for each of the target group. 
+
+**Attract new casual riders**
 * Launch a '10 to 5' ticket for casual drivers to attract them towards registrations
 * Launch weekend tickets for casual drivers to attract them towards registrations
 
-Attract new registrations
+**Attract new registrations**
 * Spring - Summer ticket campaign (April - October) to attract new customers to the service and potentially convert them once the campaign is over.
+* Launch 'rush hour pass' for commuters to attract new registrations
 
 
 
