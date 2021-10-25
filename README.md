@@ -12,7 +12,7 @@ more revenue to the business.
 3. Visualisations in Tableau
 4. Insights
 
-Note: the analysis has been conducted entirely in Python and results plotted into Tableau. SQL scripts will be attached in appendix as a reference.
+Note: the analysis has been conducted entirely in Python and results plotted into Tableau. No SQL has been usued during the analysis. 
  
  ## Business Understanding ## 
  
