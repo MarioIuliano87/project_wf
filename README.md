@@ -236,7 +236,7 @@ dim_weather = pd.DataFrame({'weather_sk': [1, 2, 3, 4],
                                         'Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds',
                                         'Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog']})
 
-# Join the 3 tables on sk
+# Join the 2 tables on sk
 data = df.merge(dim_season, how='inner', on='season_sk').merge(dim_weather, how='inner', on='weather_sk')
 
 bike_share = data[
@@ -244,7 +244,6 @@ bike_share = data[
      'weather', 'temp', 'atemp', 'humidity', 'windspeed', 'casual', 'registered', 'totals']]
 
 # Export cleaned data set as csv file and plot it into Tableau
-# Converting into CSV and Save locally - This is only to be read into SQL
 wf = bike_share.to_csv(path + 'bike_sharing_wf.csv',
                        header=True,
                        index=False)
