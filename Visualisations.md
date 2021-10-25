@@ -24,4 +24,14 @@
 ![image](https://user-images.githubusercontent.com/73912794/138667508-0f9b2943-dee7-44de-b190-7bee702e9497.png)
 
 
+# Proposal to increase revenue # 
+
+Attract new casual riders
+* Launch a '10 to 5' ticket for casual drivers to attract them towards registrations
+* Launch weekend tickets for casual drivers to attract them towards registrations
+
+Attract new registrations
+* Spring - Summer ticket campaign (April - October) to attract new customers to the service and potentially convert them once the campaign is over.
+
+
 
