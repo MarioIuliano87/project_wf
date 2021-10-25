@@ -1,7 +1,7 @@
 # Main Points # 
 
 * Increase of 65% compared to 2011
-* The share of registered increased by 2 points in 2012, showing more registration compared to casual rides
+* The main increase was related to registration (+68%) but casuals also doubled (+51%)
 
 ![image](https://user-images.githubusercontent.com/73912794/138667419-f876882b-7489-4a18-a27a-a2d12ec8eda7.png)
 
