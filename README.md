@@ -29,7 +29,7 @@ The pay-as-you-go plan might be consumed by customers who occasionally commute w
 
 Although increasing casual commuters will still represent a source of revenue, the most significant growth comes from long-term consumers.
 
-**I will use the data to explore opportunities to identify opportunities to attract more customers to the bike service**
+**I will use the data to explore opportunities to attract more customers to the bike service**
 
 ## High level exploration in Python ## 
 
@@ -76,10 +76,10 @@ print('Max date: ', max_d)
 * All features are stored as float64 and only one column (dteday) has been stored as datetime. 
 * No NULL values. 
 * The dataset is presented as an aggregation of registered and casual consumers on a daily level and it goes as granular as hour.  
-* Some features (season, weathersit) are stored as surrogate_keys and will need to be converted to corresponding label when plotting the data. 
+* Some features (season, weathersit) are stored as surrogate_keys and will need to be converted to the corresponding labels when plotting the data. 
 
 The target variables are: 
-* 'count'
+* 'totals'
 * 'registered' 
 * 'casual' 
 
@@ -172,7 +172,7 @@ plt.show()
 
 * Opposite trend for registered and casual
 * Registered traffic remains high across the working days
-* Casual are momentum is the weekend
+* Casual momentum is the weekend
 
 ```python
 # Daily distribution by Registered and Casual
@@ -188,8 +188,8 @@ ax[1].set_xlabel("")
 
 ![daily_boxplots_reg_cas](https://user-images.githubusercontent.com/73912794/138657631-348d2385-adee-4868-abd2-a3279252197f.png)
 
-* The daily distribution for registered on weekdays is pretty stable showing that these rides might be really bounded to working hours
-* Casuals distributions have higher averages in the weekends and 
+* The daily distribution for registered on weekdays is relatively stable showing that these rides might be really bounded to working hours
+* Casuals distributions have higher averages in the weekends 
 * The outliers might be due to the spikes occurring in the commuting time.  
 
 ```python
@@ -248,3 +248,5 @@ wf = bike_share.to_csv(path + 'bike_sharing_wf.csv',
                        header=True,
                        index=False)
 ```
+
+(Here)[https://github.com/MarioIuliano87/project_wf/blob/main/Visualisations.md] you can find the final analysis for the stakeholders.
