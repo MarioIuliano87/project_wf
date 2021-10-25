@@ -1,3 +1,17 @@
+# Introduction # 
+
+From the data, we observed two target groups: 
+* Registered 
+* Casuals 
+
+
+![WhatsApp Image 2021-10-25 at 12 17 33](https://user-images.githubusercontent.com/73912794/138678900-dd93adf7-64f9-4673-89d2-efc227d51a99.jpeg)
+
+
+Both have different behaviours and needs to use the bike service. 
+In the following you will see the related analysis as well as the proposed strategies to increase revenue based on this analysis.
+
+
 # Main Points # 
 
 * Increase of 65% compared to 2011
@@ -32,12 +46,15 @@ While registered are more bounded to daily commuting and their rides are dicted 
 Therefore we can plan to come up with two new product strategies for each of the target group. 
 
 **Attract new casual riders**
+
+![WhatsApp Image 2021-10-25 at 12 17 33 (1)](https://user-images.githubusercontent.com/73912794/138678990-070c8783-b7be-4373-8db6-37412e7c0466.jpeg)
+
 * Launch a '10 to 5' ticket for casual drivers to attract them towards registrations
 * Launch weekend tickets for casual drivers to attract them towards registrations
 
 **Attract new registrations**
+
+![WhatsApp Image 2021-10-25 at 12 17 33 (2)](https://user-images.githubusercontent.com/73912794/138679032-ccbcf575-37f6-4f19-9684-a2fd10af9d2d.jpeg)
+
 * Spring - Summer ticket campaign (April - October) to attract new customers to the service and potentially convert them once the campaign is over.
 * Launch 'rush hour pass' for commuters to attract new registrations
-
-
-
