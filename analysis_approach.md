@@ -1,4 +1,4 @@
-# Wunderflat Case Study # 
+# Wunderflats Case Study # 
 
 ## Objective ##
 
