@@ -117,7 +117,7 @@ reg_cas['casual'] = round((reg_cas['casual'] / reg_cas['totals']) * 100, 0)
 print('Yearly Share of Registered and Casual\n', reg_cas)
 ```
 
-<img width="331" alt="Screenshot 2021-10-25 at 09 33 06" src="https://user-images.githubusercontent.com/73912794/138653415-5df7608e-39c1-4fab-91b5-704842225380.png">
+<img width="538" alt="Screenshot 2021-10-27 at 12 51 01" src="https://user-images.githubusercontent.com/73912794/139052222-2f38e335-bd74-40bb-98d7-81a0148d6269.png">
 
 * There was an overall increase in 2012
 * This interested both registered and casual riders 
